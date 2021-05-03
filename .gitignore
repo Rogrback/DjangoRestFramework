@@ -1,0 +1,8 @@
+secret.json
+env/
+# ignore python cache files
+*.pyc
+
+# ignore migrations
+applications/*/migrations/*
+!applications/*/migrations/__init__.py
